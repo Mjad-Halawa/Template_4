@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* width: 90%;
+    margin: auto;
+    background-color: #fff; */
+    text-align: center;
+}
+
+
+.pd-y{
+    margin-bottom: 50px;
+}
+
+
+
+
+/*header-section*/
+.header{
+    width: 100%;
+    height: 460px;
+    background-image: url(images/1642061.jpg);
+    background-position: center;
+    background-attachment:fixed ;
+    background-size: cover;
+    overflow: hidden;
+}
+.header img{
+   border-radius: 50%;
+    width: 140px;
+    height: 120px;
+    transform: translate(520%,5%);
+    
+    
+}
+.nav li{
+    display: inline-block;
+    
+}
+.nav .navbar{
+    list-style: none;
+}
+.nav .navbar a{
+    text-decoration: none;
+    color: #fff;
+    margin-right:30px;
+    font-size: 22px;
+    padding-bottom: 5px;
+    
+}
+.tm-nav-link:hover {
+    border-bottom: 2px solid white;
+    margin-top: 10px;
+  }
+.nav{
+    float: right;
+    transform: translate(0%,1590%);
+    
+}
+.title{
+    text-transform: capitalize;
+    margin: auto;
+    margin: 30px 0 20px 0;
+    
+}
+/*body-section*/
+.body{
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
+.title-desc{
+    width: 50%;
+    margin: auto;
+}
+.body-item{
+    width: 20%;
+    float: left;
+    margin:0 5% 20px 0;
+
+}
+.perant-items{
+    margin-left: 5%;
+}
+.item-title{
+    color: rgb(77, 121, 192);
+    text-align: left;
+    margin-bottom: 10px;
+}
+.body-item img{
+    width: 100%;
+    height: 130px;
+}
+.item-desc{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    color: #696969;
+}
+.body-desc{
+    text-align: left;
+}
+.item-cost{
+    font-size: 25px;
+    text-align: left;
+    color: rgb(17, 167, 39);
+    padding: 30px 0 0 0;
+}
+.body-item-finaly{
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+}
+.body-item-finaly img{
+    float: left;
+    width: 40%;
+    padding: 0 50px;
+    height: 300px;
+}
+.body-item-finaly .body-title-finaly{
+    float: left;
+}
+.item-title-finaly{
+    margin-bottom: 20px;
+    display: block;
+}
+.body-desc-finaly{
+    font-size: 19px;
+    line-height: 25px;
+    color: #696969;
+    word-spacing: 5px;
+}
+.item-desc-desc{
+    overflow: hidden;
+}
+.about-btn{
+    padding: 10px 25px;
+    float: right;
+    margin: 50px;
+    color: #696969;
+    text-decoration: none;
+    border: 1px solid #696969;
+    transition: background-color 0.5s , color 0.5s;
+    
+}
+.about-btn:hover{
+    background-color: #696969;
+    color: #fff;
+}
+.Copyright{
+    color: #696969;
+    font-size: 22px;
+    padding: 40px;
+}
+/*--------------------------about-section-----------------------------*/
+.perant-items-about{
+    overflow: hidden;
+}
+.body-item-about{
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    margin-right: 5px;
+}
+.body-item-about img{
+    float: left;
+    width: 200px;
+    height: 180px;
+    margin:0 20px 30px 0;
+    border-radius: 7px;
+}
+.margin-left-about{
+    margin-left: 10%;
+}
+.img-div{
+    background-image: url(images/background3.webp);
+    background-attachment: fixed;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.body-desc-finaly{
+    line-height:35px;
+}
+/*--------------------------contact-section-----------------------------*/
+
+.class-form{
+    width: 18%;
+    margin: auto;
+    float: left;
+    margin-left: 33%;
+    margin-right: 50px;
+}
+.class-form form input ,
+.class-form form textarea{
+    display: block;
+    border:none;
+    border-bottom:1px solid #696969;
+    margin-bottom: 30px;
+}
+.class-form form input {
+    padding: 10px 60px 10px 5px;
+}
+
+.class-form form{
+    overflow: hidden;
+}
+.btn-form{
+    float: right;
+    padding: 10px 30px;
+    background-color: #319966;
+    color: #fff;
+    border: none;
+    transition:background-color 0.3s ;
+}
+.btn-form:hover{
+    background-color: #277b52;
+}
+
+.class-label{
+    width: 30%;
+    text-align: left;
+    float: left;
+
+}
+.class-label  .add{
+    display: block;
+    border:none;
+    color: #696969;
+    margin-bottom: 60px;
+}
+.class-label  .add label{
+    margin-top: 10px;
+}
+.class-label  .add-1{
+    display: block;
+    border:none;
+    color: #319966;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+.form-body{
+    overflow: hidden;
+}
+.item-desc-FAQs{
+    color: #696969;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.finaly-form{
+    width: 50%;
+    margin: auto;
+    font-size: 25px;
+    color: #696969;
+    text-align: left;
+    overflow: hidden;
+
+}
+.finaly-form .finaly-form-item input{
+    float: right;
+    margin-top: 10px;
+}
+.finaly-form-item{
+    margin: 40px 0;
+    border: 1px solid #696969;
+    padding: 10px 10px 10px 5px;
+}
